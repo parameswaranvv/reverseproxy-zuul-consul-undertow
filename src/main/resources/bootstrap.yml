@@ -6,3 +6,6 @@ spring:
       discovery:
         health-check-interval: 30s 
         health-check-url: http://localhost:8080/health
+      config:
+        enabled: true
+        format: YAML

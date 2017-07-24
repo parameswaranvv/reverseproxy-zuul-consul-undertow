@@ -16,11 +16,11 @@ server:
     min-response-size: 1
 
     
-zuul:
-  routes:
-    wso2demo1:
-      path: /wso2demo1/**
-      stripPrefix: false
-      service-id: wso2demo1
+#zuul:
+#  routes:
+#    wso2demo1:
+#      path: /wso2demo1/**
+#      stripPrefix: false
+#      service-id: wso2demo1
 
 ribbon.eureka.enabled: false
